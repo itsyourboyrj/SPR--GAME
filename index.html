@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <title>Scissor Paper Rock</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h2>Rock, Paper &amp; Scissor</h2>
+
+        <div class="rpgcont">
+            <img src="https://img.icons8.com/color/48/000000/hand-rock.png" title="Rock" onclick="startGame('rock')"
+                alt="hand rock img" />
+            <img src="https://img.icons8.com/color/48/000000/hand.png" title="Paper" onclick="startGame('paper')"
+                alt="hand paper img" />
+            <img src="https://img.icons8.com/emoji/48/000000/victory-hand-medium-skin-tone.png" title="Scissors"
+                onclick="startGame('scissors')" alt="hand Scissors img" />
+        </div>
+
+        <p id="whowins">Choose Your Move</p>
+        <div id="score">
+            <span class="sides">User: 0</span>
+            <span class="sides">Computer: 0</span>
+        </div>
+    </div>
+    <script src="./rpc.js"></script>
+</body>
+
+</html>
