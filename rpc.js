@@ -41,6 +41,7 @@ function startGame(e) {
     let userChoice = e;
     let computerChoices = ["rock", "paper", "scissors"];
     let computerChoice = computerChoices[Math.floor(Math.random() * 3)];
+    alert("Computer's Move is : " + computerChoice);
     let winner = compare(userChoice, computerChoice);
     whowins.classList = "";
 
